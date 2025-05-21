@@ -8,11 +8,11 @@
         private $pesoVagonVacio;
         private $pesoActual;
 
-        //METODO CONSTRUCTOR (__construct)
-        public function __construct($pesoVagonVacio){
-            $this -> anioInstalacion = 1983;
-            $this -> largo = 1000;
-            $this -> ancho = 500;
+        //METODO CONSTRUCTOR
+        public function __construct($anioInstalacion, $largo, $ancho, $pesoVagonVacio){
+            $this -> anioInstalacion = $anioInstalacion;
+            $this -> largo = $largo;
+            $this -> ancho = $ancho;
             $this -> pesoVagonVacio = $pesoVagonVacio;
             $this -> pesoActual = $pesoVagonVacio;
         }
