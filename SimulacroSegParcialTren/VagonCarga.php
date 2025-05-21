@@ -5,8 +5,8 @@
         private $pesoTransportado;
         
         //METODO CONSTRUCTOR
-        public function __construct($pesoVagonVacio, $pesoMaximo, $pesoTransportado){
-            parent::__construct($pesoVagonVacio);
+        public function __construct($anioInstalacion, $largo, $ancho,$pesoVagonVacio, $pesoMaximo, $pesoTransportado){
+            parent::__construct($anioInstalacion, $largo, $ancho,$pesoVagonVacio);
             $this -> pesoMaximo = $pesoMaximo;
             $this -> pesoTransportado = $pesoTransportado;
         }
