@@ -8,7 +8,7 @@
         private $pesoVagonVacio;
         private $pesoActual;
 
-        //METODO CONSTRUCTOR
+        //METODO CONSTRUCTOR (__construct)
         public function __construct($pesoVagonVacio){
             $this -> anioInstalacion = 1983;
             $this -> largo = 1000;
